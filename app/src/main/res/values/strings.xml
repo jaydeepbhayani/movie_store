@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">YMS</string>
+    <string name="title_headlines">H e a d l i n e s</string>
+    <string name="powered_by_newsapi_org">Powered by - yms.xyz</string>
+    <string name="news_api">News API</string>
+    <string name="your">Your</string>
+    <string name="api">MS</string>
+</resources>
