@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dp20"
+            android:paddingBottom="@dimen/dp20">
+
+            <TextView
+                android:id="@+id/tvDialogTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotoslab_bold"
+                android:letterSpacing="0.2"
+                android:text="Checkout"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp18"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/closeButton"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:background="?selectableItemBackgroundBorderless"
+                android:padding="@dimen/dp20"
+                app:layout_constraintBottom_toBottomOf="@id/tvDialogTitle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/tvDialogTitle"
+                app:srcCompat="@drawable/ic_round_close_24"
+                tools:visibility="visible" />
+
+            <View
+                android:id="@+id/separator"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp1"
+                android:layout_marginTop="@dimen/dp20"
+                android:background="@color/warning"
+                app:layout_constraintTop_toBottomOf="@id/tvDialogTitle" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/form"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/dp24"
+                android:layout_marginEnd="@dimen/dp24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/separator">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/etNameLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp12"
+                    app:errorEnabled="true"
+                    app:hintEnabled="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <EditText
+                        android:id="@+id/etName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/robotoslab_regular"
+                        android:hint="@string/name"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        android:isScrollContainer="true"
+                        android:textSize="@dimen/sp14" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/etPhoneLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:errorEnabled="true"
+                    app:hintEnabled="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/etNameLayout">
+
+                    <EditText
+                        android:id="@+id/etPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/robotoslab_regular"
+                        android:hint="@string/phone"
+                        android:importantForAutofill="no"
+                        android:inputType="phone"
+                        android:isScrollContainer="true"
+                        android:maxLength="11"
+                        android:textSize="@dimen/sp14" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/etCardNoLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:errorEnabled="true"
+                    app:hintEnabled="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/etPhoneLayout">
+
+                    <EditText
+                        android:id="@+id/etCardNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/robotoslab_regular"
+                        android:hint="@string/card"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:isScrollContainer="true"
+                        android:maxLength="16"
+                        android:textSize="@dimen/sp14" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/etCardDateLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dp10"
+                    app:errorEnabled="true"
+                    app:hintEnabled="true"
+                    app:layout_constraintEnd_toStartOf="@id/etCardCVVLayout"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/etCardNoLayout">
+
+                    <EditText
+                        android:id="@+id/etCardDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/robotoslab_regular"
+                        android:hint="@string/mmyy"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:isScrollContainer="true"
+                        android:maxLength="5"
+                        android:textSize="@dimen/sp14" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/etCardCVVLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp10"
+                    app:errorEnabled="true"
+                    app:hintEnabled="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/etCardDateLayout"
+                    app:layout_constraintTop_toBottomOf="@id/etCardNoLayout">
+
+                    <EditText
+                        android:id="@+id/etCardCVV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/robotoslab_regular"
+                        android:hint="@string/cvv"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:isScrollContainer="true"
+                        android:maxLength="3"
+                        android:textSize="@dimen/sp14" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Button
+                android:id="@+id/btnPay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/dp16"
+                android:background="@drawable/capsule_button"
+                android:fontFamily="@font/robotoslab_bold"
+                android:text="Pay now"
+                android:textSize="@dimen/sp16"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/form" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</RelativeLayout>

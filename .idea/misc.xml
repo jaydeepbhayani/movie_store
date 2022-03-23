@@ -3,8 +3,33 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/bg_rounded_white.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/border_white.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/bottom_sheet_corners_background.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/capsule_button.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/circle_background.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/circle_background_white.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/gradient_photo_covor.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/ic_round_close_24.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/ic_round_mood_bad_24.xml" value="0.143" />
+        <entry key="app/src/main/res/drawable/ic_round_star_24.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/progress_animation.xml" value="0.143" />
+        <entry key="app/src/main/res/drawable/round_bottom_background.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/round_top_background.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/tint_covor.xml" value="0.189" />
+        <entry key="app/src/main/res/layout/activity_detail.xml" value="0.30925925925925923" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1874062968515742" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3765625" />
+        <entry key="app/src/main/res/layout/activity_product.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.3765625" />
+        <entry key="app/src/main/res/layout/bottom_sheet_detail_dialog.xml" value="0.3765625" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.3765625" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.3765625" />
+        <entry key="app/src/main/res/layout/item_pager_home.xml" value="0.3765625" />
+        <entry key="app/src/main/res/layout/item_product.xml" value="0.30925925925925923" />
+        <entry key="app/src/main/res/layout/layout_actionbar_main.xml" value="0.3765625" />
+        <entry key="app/src/main/res/layout/layout_error.xml" value="0.3765625" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.3765625" />
       </map>
     </option>
   </component>

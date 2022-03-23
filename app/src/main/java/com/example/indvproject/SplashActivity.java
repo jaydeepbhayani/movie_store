@@ -10,6 +10,9 @@ import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.indvproject.ui.home.HomeActivity;
+import com.example.indvproject.ui.productlist.ProductActivity;
+
 public class SplashActivity extends AppCompatActivity {
 
     long ANIMATION_DURATION = 2000;
@@ -36,7 +39,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                startActivity(new Intent(SplashActivity.this, HomeActivity.class));
                 finish();
             }
         }, ANIMATION_DURATION);
