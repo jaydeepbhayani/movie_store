@@ -1,0 +1,115 @@
+{
+  "data": [
+    {
+      "name": "Titanic",
+      "type": "Romance/Drama",
+      "year": "1997",
+      "price": 19.99,
+      "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhYjUIu2o5v5u3rfJpCq5Cz0Q9WK--XdYxai_N2d0ImohPiIOp",
+      "cast": "Leonardo DiCaprio, Kate Winslet, Billy Zane",
+      "director": "James Cameron",
+      "description": "James Cameron's Titanic is an epic, action-packed romance set against the ill-fated maiden voyage of the R.M.S. Titanic; the pride and joy of the White Star Line and, at the time, the largest moving object ever built. She was the most luxurious liner of her era -- the ship of dreams -- which ultimately carried over 1,500 people to their death in the ice cold waters of the North Atlantic in the early hours of April 15, 1912.",
+      "reviews": [
+        {
+          "author": "Doug",
+          "rating": 7,
+          "reviewText": "World class film."
+        },
+        {
+          "author": "Simon Holmes",
+          "rating": 7,
+          "reviewText": "One of the best movie I have ever seen."
+        },
+        {
+          "author": "Donna",
+          "rating": 7,
+          "reviewText": "I loved this movie."
+        },
+        {
+          "author": "Jhon",
+          "rating": 8,
+          "reviewText": "One of the best movie I have ever seen."
+        }
+      ]
+    },
+    {
+      "name": "Jhon Wick",
+      "type": "Action/Thriller",
+      "year": "2014",
+      "price": 14.99,
+      "imageurl": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS0l5fuKfa2dQBtNqViR1Haj9JpYl4xRtaMasZyv1fLodr9WHsa",
+      "cast": "Keanu Reeves, Ian McShane, Lance Reddick, Bridget Moynahan",
+      "director": "Chad Stahelski",
+      "description": "Legendary assassin John Wick (Keanu Reeves) retired from his violent career after marrying the love of his life. Her sudden death leaves John in deep mourning. When sadistic mobster Iosef Tarasov (Alfie Allen) and his thugs steal John's prized car and kill the puppy that was a last gift from his wife, John unleashes the remorseless killing machine within and seeks vengeance. Meanwhile, Iosef's father (Michael Nyqvist) -- John's former colleague -- puts a huge bounty on John's head.",
+      "reviews": [
+        {
+          "author": "James Holmes",
+          "rating": 7,
+          "reviewText": "One of the best action movie I have ever seen."
+        },
+        {
+          "author": "Jaydeep Bhayani",
+          "rating": 8,
+          "reviewText": "Ultimate vengeance."
+        }
+      ]
+    },
+    {
+      "name": "Swades",
+      "type": "Musical/Drama",
+      "year": "2004",
+      "price": 29.99,
+      "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtfXiu6vyuHkxWAfCpOmV55DUvzZ9GazBi2vCoWsFM641qtOwl",
+      "cast": "Shah Rukh Khan, Gayatri Joshi, Kishori Ballal, Rajesh Upadhyay",
+      "director": "Ashutosh Gowariker",
+      "description": "Mohan Bhargava is a successful NRI (non-resident Indian) working at the technological forefront of NASA in the USA. Driven by nostalgia, he returns to his roots to find the nanny who raised him in his homeland, intending to bring her back to America. His journey leads him into the rural heart of India, to the village of Charanpur, and sets him on both an outward and inner quest to find where he truly belongs.",
+      "reviews": [
+        {
+          "author": "Jaydeep Bhayani",
+          "rating": 9,
+          "reviewText": "One of the best creation of indian cinema."
+        }
+      ]
+    },
+    {
+      "name": "Chaplin",
+      "type": "Drama/Comedy",
+      "year": "1992",
+      "price": 12.99,
+
+      "imageurl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQt0SDcX9xAMtWKDHfTq05bMuq3snKyAAcWU-WanmCMEBXV-rZx",
+      "cast": "Robert Downey Jr., Geraldine Chaplin, Anthony Hopkins, Kevin Kline, Milla Jovovich",
+      "director": "Richard Attenborough",
+      "description": "Re-creation of the life of comic genius Charlie Chaplin, from his humble beginnings in south London through his early days in British vaudeville, his silent movie career in America and his late masterpieces. His turbulent personal life saw four marriages and an enforced exile from the US - though he returned to receive an honorary Oscar in 1972.",
+      "reviews": []
+    },
+    {
+      "name": "American Made",
+      "type": "Action/Thriller",
+      "year": "2017",
+      "price": 6.99,
+      "imageurl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTDRnNhfV9xw-Hc6TehLBqxcDzZP4ZJXSrLpF0JcSf7CLL18RR4",
+      "cast": "Tom Cruise, Sarah Wright, Caleb Landry Jones, Domhnall Gleeson",
+      "director": "Doug Liman",
+      "description": "Barry Seal, a TWA pilot, is recruited by the CIA to provide reconnaissance on the burgeoning communist threat in Central America and soon finds himself in charge of one of the biggest covert CIA operations in the history of the United States. The operation spawns the birth of the Medellin cartel and almost brings down the Reagan White House.",
+      "reviews": []
+    },
+    {
+      "name": "The Dark Knight",
+      "type": "Action/Adventure",
+      "year": "2008",
+      "price": 19.99,
+      "imageurl": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8pugr7ojVTtgyY_dOd078yGXXVJW8eOfXlcE2mqleMeKuEHmg",
+      "cast": "Christian Bale, Heath Ledger, Michael Caine, Gary Oldman, Aaron Eckhart, Morgan Freeman, Maggie Gyllenhaal, Anne Hathaway",
+      "director": "Christopher Nolan",
+      "description": "With the help of allies Lt. Jim Gordon (Gary Oldman) and DA Harvey Dent (Aaron Eckhart), Batman (Christian Bale) has been able to keep a tight lid on crime in Gotham City. But when a vile young criminal calling himself the Joker (Heath Ledger) suddenly throws the town into chaos, the caped Crusader begins to tread a fine line between heroism and vigilantism.",
+      "reviews": [
+        {
+          "author": "Jaydeep Bhayani",
+          "rating": 9,
+          "reviewText": "Dark knight by Christopher Nolan,Shows us the real world approach on the comic created character Batman."
+        }
+      ]
+    }
+  ]
+}
